@@ -1,0 +1,41 @@
+.comidas {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 3px;
+}
+
+.comidas h2 {
+  margin-bottom: 20px;
+  color: red;
+}
+
+.comidas h3 {
+  margin-bottom: 10px;
+}
+
+.item {
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.impar li {
+  padding: 0px 20px;
+  border-left: #f8f8f8 solid;
+}
+
+.par li {
+  padding: 0px 20px;
+  border-left: white solid;
+}
+
+.item li:hover {
+  border-left: red solid;
+}
+
+.impar {
+  background-color: #f8f8f8;
+}

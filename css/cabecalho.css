@@ -1,0 +1,25 @@
+.logo {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.subtitulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 40px;
+  font-size: 2rem;
+}
+
+span {
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.75rem;
+  margin-bottom: 40px;
+}
+
+.subtitulo,
+span {
+  display: flex;
+  justify-content: center;
+}
