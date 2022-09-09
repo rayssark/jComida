@@ -16,6 +16,9 @@
 }
 
 .item {
+  display: inline-grid;
+  grid-template-columns: 5fr 1fr;
+  gap: auto-fit;
   padding: 20px;
   margin-bottom: 20px;
   align-items: center;

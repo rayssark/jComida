@@ -16,3 +16,8 @@ ul, ol {
   list-style: none;
 }
 
+img {
+  padding: 0px;
+  margin: 0px;
+  max-width: 200px;
+}
