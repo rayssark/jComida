@@ -42,3 +42,30 @@
 .impar {
   background-color: #f8f8f8;
 }
+
+@media (max-width: 600px) {
+  .item {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .impar {
+    background-color: #f8f8f8;
+  }
+
+  .impar li {
+    padding: 0px 20px;
+    border-left: #f8f8f8 solid;
+    margin-bottom: 2rem;
+  }
+
+  .par li {
+    padding: 0px 20px;
+    border-left: white solid;
+    margin-bottom: 2rem;
+  }
+
+  img {
+    padding-left: 20px;
+  }
+}

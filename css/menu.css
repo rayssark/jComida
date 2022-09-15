@@ -24,3 +24,26 @@ a {
 .menu li:hover {
   background-color: #e8e8e8;
 }
+
+@media (max-width: 800px) and (min-width: 500px) {
+
+  .menu {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+
+  .menu li {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    justify-content: flex-start;
+  }
+}
